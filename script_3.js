@@ -1,17 +1,10 @@
- let space = prompt("Choisi un nombre entre 1 et 25");
- while(space > 25 || space <= 0)
- {
- 	space = prompt("Tu dois choisir un nombre entre 1 et 25")
- };
+let input = prompt("Combien d'étages veux-tu dans ta pyramide?")
+let n = Number(input) ;
+let space = ' ';
+let hashtag = '#';
+let count = 1;
 
- let hashtag = 1;
- let spaceInit = space;
- space -=1;
-
- console.log("Look :");
- while (hashtag <= spaceInit)
-{
-	 console.log(" ".repeat(space) + "#".repeat(hashtag));
-	 hashtag++
-	 space--
-};
+while (count <= n) {
+	console.log(' '.repeat(n-count) + '#'.repeat(count));
+	count = count + 1;
+}
