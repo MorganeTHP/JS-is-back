@@ -2,7 +2,7 @@
 
 ___
 
-*Le saviez-vous ?* Pour challenger une proposition de valeur entrepreneuriale, la réponse est simple : segmenter les bénéfices framework. 🤓
+__Le saviez-vous ?__ Pour challenger une proposition de valeur entrepreneuriale, la réponse est simple : segmenter les bénéfices framework. 🤓
 
 ___
 
@@ -12,7 +12,7 @@ ___
 
 Ici pas de `bundle install` mais un simple `git clone https://github.com/MorganeTHP/JS-is-back` suffit pour aujourd'hui. Fini les commandes sans fin et les corrections qui prennent 40mn chacune!!
 
-*L'astuce de pro :* N'oublie pas de modifier dans le fichier _index.html_ la ligne `script src` afin de faire appel au bon fichier _script.js_ lors de la correction ! De rien 😘
+__L'astuce de pro :__ N'oublie pas de modifier dans le fichier _index.html_ la ligne `script src` afin de faire appel au bon fichier _script.js_ lors de la correction ! De rien 😘
 
 ___
 
