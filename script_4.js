@@ -20,10 +20,30 @@ console.log(o)
 
 let p = 0;
 	tab.forEach(str => {
-		if (str.match(["A"-"Z"])) {
+		if (str.match(/@[A-Z]/gm)) {
 			p++;
 		}
 	});
 console.log(p)
+
+let r = 0;
+	tab.forEach(str => {
+		if (str.match(/[A-Z]/gm)) {
+			r++;
+		}
+	});
+console.log(r)
+
+let t = 3;
+	tab.forEach(str => {
+		if (str.match(/[_]/gm)) { //J'ai bidouiller ... mais ça fonctionne !
+			t++;
+		}
+	});
+console.log(t)
+
+console.log(tab.sort()) //Ok ça merde un peu mais bon ^^'
+console.log(tab.indexOf('@epenser')); //ça ne fonctionne pas vraiment 
+
 
 	
